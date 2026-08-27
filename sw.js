@@ -6,7 +6,7 @@
 // Así nunca se queda pegado en una versión vieja: si hay conexión, siempre trae lo último.
 // Nunca cachea las llamadas a la API de YouTube (deben ser siempre en tiempo real).
 
-const CACHE_NAME = "jbcazetv-shell-v1";
+const CACHE_NAME = "jbcazetv-shell-v2";
 
 self.addEventListener("install", () => {
   self.skipWaiting();
